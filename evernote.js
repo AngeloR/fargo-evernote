@@ -15,7 +15,7 @@ var FargoEvernote = {
 		FargoEvernote.createNote(text);
 	},
 	createNote: function(text) {
-
+		console.log(text);
 	},
 	init: function() {
 		// Add the evernote icon to the sidebar
