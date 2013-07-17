@@ -7,9 +7,7 @@
  */
 
 var FargoEvernote = {
-	handleClick: function(e) {
-		e.preventDefault();
-		e.stopPropagation();
+	handleClick: function() {
 
 		// grab the selected nodeText
 		var text = getOutlineText();
